@@ -8,9 +8,9 @@ import 'package:leofacil/src/tabs/tabs_page.dart';
 //Pages
 
 final routes = <String, WidgetBuilder>{
-  'welcome': (BuildContext context) => WelcomePage(),
-  'login': (BuildContext context) => LoginPage(),
-  'sign-up': (BuildContext context) => SignUpPage(),
-  'tabs': (BuildContext context) => TabsPage(),
+  'welcome': (BuildContext context) => const WelcomePage(),
+  'login': (BuildContext context) => const LoginPage(),
+  'sign-up': (BuildContext context) => const SignUpPage(),
+  'tabs': (BuildContext context) => const TabsPage(),
   'profile': (BuildContext context) => const ProfileTab(),
 };

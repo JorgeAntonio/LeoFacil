@@ -66,7 +66,7 @@ Widget popularesCards({
                       margin: const EdgeInsets.only(top: 5.0),
                       child: Text(
                         subtitle,
-                        style: TextStyle(
+                        style: const TextStyle(
                             color: gris,
                             fontWeight: FontWeight.w500,
                             fontSize: 13.0),
@@ -74,7 +74,7 @@ Widget popularesCards({
                     ),
                     Row(
                       children: [
-                        Icon(Icons.star, color: amarillo, size: 16.0),
+                        const Icon(Icons.star, color: amarillo, size: 16.0),
                         Text(
                           review,
                           style: const TextStyle(

@@ -12,7 +12,7 @@ Widget cardVertical(
     required String title,
     required String subtitle}) {
   return Container(
-    margin: EdgeInsets.all(5.0),
+    margin: const EdgeInsets.all(5.0),
     child: Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
@@ -25,12 +25,12 @@ Widget cardVertical(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             Container(
-              margin: EdgeInsets.only(top: 5.0),
+              margin: const EdgeInsets.only(top: 5.0),
               child: headerText(
                   texto: title, fontWeight: FontWeight.w500, fontSize: 17.0),
             ),
             Container(
-              margin: EdgeInsets.only(top: 5.0),
+              margin: const EdgeInsets.only(top: 5.0),
               child: headerText(
                   texto: subtitle,
                   color: gris,

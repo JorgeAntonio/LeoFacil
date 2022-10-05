@@ -55,7 +55,7 @@ Widget _header() {
                       fontSize: 20,
                       fontWeight: FontWeight.w600),
                   IconButton(
-                      icon: Icon(
+                      icon: const Icon(
                         Icons.chevron_right,
                         color: gris,
                       ),
@@ -76,8 +76,8 @@ Widget _header() {
                 ),
                 child: Row(
                   children: [
-                    Image(
-                        image: const AssetImage('images/crown.png'),
+                    const Image(
+                        image: AssetImage('images/crown.png'),
                         width: 16,
                         height: 16,
                         color: white,
@@ -115,7 +115,7 @@ Widget _contentProfile() {
           ),
           title:
               headerText(texto: 'Notificaciones', fontWeight: FontWeight.w400),
-          trailing: Icon(
+          trailing: const Icon(
             Icons.chevron_right,
             color: gris,
           ),
@@ -129,7 +129,7 @@ Widget _contentProfile() {
           ),
           title:
               headerText(texto: 'Formas de pago', fontWeight: FontWeight.w400),
-          trailing: Icon(
+          trailing: const Icon(
             Icons.chevron_right,
             color: gris,
           ),
@@ -142,7 +142,7 @@ Widget _contentProfile() {
             fit: BoxFit.cover,
           ),
           title: headerText(texto: 'Historial', fontWeight: FontWeight.w400),
-          trailing: Icon(
+          trailing: const Icon(
             Icons.chevron_right,
             color: gris,
           ),
@@ -155,7 +155,7 @@ Widget _contentProfile() {
             fit: BoxFit.cover,
           ),
           title: headerText(texto: 'Promociones', fontWeight: FontWeight.w400),
-          trailing: Icon(
+          trailing: const Icon(
             Icons.chevron_right,
             color: gris,
           ),
@@ -170,7 +170,7 @@ Widget _contentProfile() {
           ),
           title:
               headerText(texto: 'Configuraciones', fontWeight: FontWeight.w400),
-          trailing: Icon(
+          trailing: const Icon(
             Icons.chevron_right,
             color: gris,
           ),
@@ -184,7 +184,7 @@ Widget _contentProfile() {
           ),
           title:
               headerText(texto: 'Invitar amigos', fontWeight: FontWeight.w400),
-          trailing: Icon(
+          trailing: const Icon(
             Icons.chevron_right,
             color: gris,
           ),
@@ -198,7 +198,7 @@ Widget _contentProfile() {
           ),
           title:
               headerText(texto: 'Centro de ayuda', fontWeight: FontWeight.w400),
-          trailing: Icon(
+          trailing: const Icon(
             Icons.chevron_right,
             color: gris,
           ),
@@ -212,7 +212,7 @@ Widget _contentProfile() {
           ),
           title:
               headerText(texto: 'Sobre nosotros', fontWeight: FontWeight.w400),
-          trailing: Icon(
+          trailing: const Icon(
             Icons.chevron_right,
             color: gris,
           ),

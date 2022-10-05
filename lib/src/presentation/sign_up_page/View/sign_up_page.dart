@@ -66,11 +66,11 @@ class SignUpPage extends StatelessWidget {
 
 Widget _usernameInput(BuildContext context) {
   return Container(
-    margin: EdgeInsets.only(top: 40.0),
-    padding: EdgeInsets.only(left: 20.0),
+    margin: const EdgeInsets.only(top: 40.0),
+    padding: const EdgeInsets.only(left: 20.0),
     decoration: BoxDecoration(
         color: bgInputs, borderRadius: BorderRadius.circular(40.0)),
-    child: TextField(
+    child: const TextField(
       keyboardType: TextInputType.text,
       decoration: InputDecoration(
           hintText: 'Nombre de usuario',
@@ -81,11 +81,11 @@ Widget _usernameInput(BuildContext context) {
 
 Widget _emailInput(BuildContext context) {
   return Container(
-    margin: EdgeInsets.only(top: 10.0),
-    padding: EdgeInsets.only(left: 20.0),
+    margin: const EdgeInsets.only(top: 10.0),
+    padding: const EdgeInsets.only(left: 20.0),
     decoration: BoxDecoration(
         color: bgInputs, borderRadius: BorderRadius.circular(40.0)),
-    child: TextField(
+    child: const TextField(
       keyboardType: TextInputType.emailAddress,
       decoration: InputDecoration(
           hintText: 'Correo',
@@ -96,11 +96,11 @@ Widget _emailInput(BuildContext context) {
 
 Widget _phoneInput(BuildContext context) {
   return Container(
-    margin: EdgeInsets.only(top: 10.0),
-    padding: EdgeInsets.only(left: 20.0),
+    margin: const EdgeInsets.only(top: 10.0),
+    padding: const EdgeInsets.only(left: 20.0),
     decoration: BoxDecoration(
         color: bgInputs, borderRadius: BorderRadius.circular(40.0)),
-    child: TextField(
+    child: const TextField(
       keyboardType: TextInputType.phone,
       decoration: InputDecoration(
           hintText: 'Telefono',
@@ -111,11 +111,11 @@ Widget _phoneInput(BuildContext context) {
 
 Widget _dateOfBirthInput(BuildContext context) {
   return Container(
-    margin: EdgeInsets.only(top: 10.0),
-    padding: EdgeInsets.only(left: 20.0),
+    margin: const EdgeInsets.only(top: 10.0),
+    padding: const EdgeInsets.only(left: 20.0),
     decoration: BoxDecoration(
         color: bgInputs, borderRadius: BorderRadius.circular(40.0)),
-    child: TextField(
+    child: const TextField(
       keyboardType: TextInputType.datetime,
       decoration: InputDecoration(
           hintText: 'Fecha de nacimiento',
@@ -126,11 +126,11 @@ Widget _dateOfBirthInput(BuildContext context) {
 
 Widget _passwordInput(BuildContext context) {
   return Container(
-    margin: EdgeInsets.only(top: 10.0),
-    padding: EdgeInsets.only(left: 20.0),
+    margin: const EdgeInsets.only(top: 10.0),
+    padding: const EdgeInsets.only(left: 20.0),
     decoration: BoxDecoration(
         color: bgInputs, borderRadius: BorderRadius.circular(40.0)),
-    child: TextField(
+    child: const TextField(
       keyboardType: TextInputType.visiblePassword,
       obscureText: true,
       decoration: InputDecoration(

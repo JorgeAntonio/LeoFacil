@@ -165,14 +165,14 @@ Widget _topBar(BuildContext context) {
               borderRadius: BorderRadius.circular(20.0)),
           child: Row(
             children: [
-              Icon(
+              const Icon(
                 Icons.search,
                 size: 20.0,
                 color: gris,
               ),
               Container(
                   margin: const EdgeInsets.only(left: 10),
-                  child: Text('Buscar',
+                  child: const Text('Buscar',
                       style: TextStyle(color: gris, fontSize: 17.0)))
             ],
           ),
@@ -258,7 +258,7 @@ Widget _tarjeta(BuildContext context) {
               Container(
                 alignment: Alignment.center,
                 margin: const EdgeInsets.only(left: 10, right: 10),
-                child: Text('¿En qué estas pensando? ',
+                child: const Text('¿En qué estas pensando? ',
                     style: TextStyle(
                         color: gris,
                         fontWeight: FontWeight.w500,

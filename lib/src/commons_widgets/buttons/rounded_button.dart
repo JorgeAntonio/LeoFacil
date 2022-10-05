@@ -49,12 +49,12 @@ Widget _raisedButtonWithIcon(
       mainAxisAlignment: MainAxisAlignment.center,
       children: [
         Image(
-          image: icon ?? AssetImage('images/abouticon.png'),
+          image: icon ?? const AssetImage('images/abouticon.png'),
           width: 20.0,
           height: 20.0,
         ),
         Container(
-          margin: EdgeInsets.only(left: 10.0),
+          margin: const EdgeInsets.only(left: 10.0),
           child: headerText(
             texto: labelButton,
             color: labelButtonColor,

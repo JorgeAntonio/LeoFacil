@@ -13,7 +13,7 @@ Widget headerDoubleText({
     child: Row(
       children: [
         headerText(texto: textHeader, fontSize: 20.0),
-        Spacer(),
+        const Spacer(),
         GestureDetector(
           onTap: func,
           child: headerText(

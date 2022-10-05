@@ -1,7 +1,6 @@
 //widgets
 import 'package:flutter/material.dart';
 //UI
-import 'package:flutter/services.dart';
 import 'package:leofacil/src/colors/colors.dart';
 import 'package:leofacil/src/commons_widgets/backButtons/back_button.dart';
 import 'package:leofacil/src/commons_widgets/buttons/rounded_button.dart';
@@ -45,7 +44,7 @@ class LoginPage extends StatelessWidget {
                             color: orange,
                             fontWeight: FontWeight.bold,
                             fontSize: 30.0)),
-                    Text("Ingresa con tu usuario",
+                    const Text("Ingresa con tu usuario",
                         style: TextStyle(
                             color: gris,
                             fontWeight: FontWeight.w500,
@@ -77,7 +76,7 @@ class LoginPage extends StatelessWidget {
                       child: Row(
                         mainAxisAlignment: MainAxisAlignment.center,
                         children: [
-                          Text("No tienes una cuenta?",
+                          const Text("No tienes una cuenta?",
                               style: TextStyle(
                                   color: gris,
                                   fontWeight: FontWeight.w500,

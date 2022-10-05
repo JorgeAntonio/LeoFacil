@@ -8,6 +8,7 @@ import 'package:leofacil/src/commons_widgets/buttons/rounded_button.dart';
 import 'package:leofacil/src/commons_widgets/headers/header_text.dart';
 
 class ForgotPassword extends StatelessWidget {
+  const ForgotPassword({Key? key}) : super(key: key);
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -20,7 +21,7 @@ class ForgotPassword extends StatelessWidget {
       ),
       body: Center(
         child: Container(
-          padding: EdgeInsets.all(30.0),
+          padding: const EdgeInsets.all(30.0),
           child: ListView(
             children: [
               headerText(
@@ -33,8 +34,8 @@ class ForgotPassword extends StatelessWidget {
                       fontWeight: FontWeight.bold,
                       fontSize: 30.0)),*/
               Container(
-                padding: EdgeInsets.all(10.0),
-                child: Text(
+                padding: const EdgeInsets.all(10.0),
+                child: const Text(
                     "Por favor, ingresa tu direccion correo electronico. Recibirás un link a tu correo para crear una nueva contraseña",
                     textAlign: TextAlign.center,
                     style: TextStyle(
@@ -47,7 +48,7 @@ class ForgotPassword extends StatelessWidget {
                   context: context,
                   labelButton: 'Enviar',
                   buttonColor: orange,
-                  shape: StadiumBorder(),
+                  shape: const StadiumBorder(),
                   func: () => _showAlerta(context)),
               //_sendButton(context)
             ],
@@ -60,12 +61,12 @@ class ForgotPassword extends StatelessWidget {
 
 Widget _emailInput() {
   return Container(
-    margin: EdgeInsets.only(top: 40.0),
-    padding: EdgeInsets.only(left: 20.0),
+    margin: const EdgeInsets.only(top: 40.0),
+    padding: const EdgeInsets.only(left: 20.0),
     decoration: BoxDecoration(
-        color: Color.fromRGBO(142, 142, 147, 1.2),
+        color: const Color.fromRGBO(142, 142, 147, 1.2),
         borderRadius: BorderRadius.circular(30.0)),
-    child: TextField(
+    child: const TextField(
       keyboardType: TextInputType.emailAddress,
       decoration: InputDecoration(
           hintText: 'Correo',
@@ -77,7 +78,7 @@ Widget _emailInput() {
 void _showAlerta(BuildContext context) {
   showAlertDialog(
       context,
-      NetworkImage(
+      const NetworkImage(
           'https://www.shareicon.net/data/2015/12/02/681185_locked_512x512.png'),
       'Tu contraseña se ha reestablecido',
       'Pronto recibiras un email con un codigo para establecer tu nueva contraseña',
